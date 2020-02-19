@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+span.navbar-toggler-icon {
+	width: 1.1em;
+}
+a.nav-link {
+    display: flex;
+}
+a.nav-link p {
+    padding-left: 8px;
+}
+.navbar-vertical {
+	width: 320px;
+	height: 100vh;
+	padding: 0.5rem 0.5rem;
+	transition: width 0.31s;
+
+}
+
+.navbar-vertical .navbar-brand {
+	margin-right: 0;
+	padding-right: 1.5rem;
+	display: block;
+
+}
+
+.navbar-vertical .navbar-toggler {
+	border: none;
+	padding: 0;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.navbar-vertical ul.navbar-nav {
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.navbar-vertical.show {
+	width: 320px;
+}
+
+.navbar-vertical.hidden {
+	width: 40px;
+	
+}
+span.material-icons.hidden {
+    position: absolute;
+    right: 10px;
+}
